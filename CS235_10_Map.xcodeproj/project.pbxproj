@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6689158620E15EE5005470E7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6689158520E15EE5005470E7 /* main.cpp */; };
+		66187EF820E7E660002922AA /* oldCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66187EF720E7E660002922AA /* oldCode.cpp */; };
+		6689158F20E1607A005470E7 /* assignment10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6689158C20E1607A005470E7 /* assignment10.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		66187EF420E7E596002922AA /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		66187EF520E7E596002922AA /* bst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bst.h; sourceTree = "<group>"; };
+		66187EF620E7E596002922AA /* bnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bnode.h; sourceTree = "<group>"; };
+		66187EF720E7E660002922AA /* oldCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = oldCode.cpp; sourceTree = "<group>"; };
 		6689158220E15EE5005470E7 /* CS235_10_Map */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CS235_10_Map; sourceTree = BUILT_PRODUCTS_DIR; };
-		6689158520E15EE5005470E7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6689158520E15EE5005470E7 /* map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		6689158C20E1607A005470E7 /* assignment10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = assignment10.cpp; sourceTree = "<group>"; };
+		6689158D20E1607A005470E7 /* pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pair.h; sourceTree = "<group>"; };
+		6689158E20E1607A005470E7 /* bom.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bom.txt; sourceTree = "<group>"; };
+		6689159120E161B3005470E7 /* wordCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordCount.h; sourceTree = "<group>"; };
+		6689159420E162A3005470E7 /* wordCount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wordCount.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,16 @@
 		6689158420E15EE5005470E7 /* CS235_10_Map */ = {
 			isa = PBXGroup;
 			children = (
-				6689158520E15EE5005470E7 /* main.cpp */,
+				6689158C20E1607A005470E7 /* assignment10.cpp */,
+				6689158520E15EE5005470E7 /* map.h */,
+				66187EF620E7E596002922AA /* bnode.h */,
+				66187EF520E7E596002922AA /* bst.h */,
+				66187EF420E7E596002922AA /* stack.h */,
+				66187EF720E7E660002922AA /* oldCode.cpp */,
+				6689158D20E1607A005470E7 /* pair.h */,
+				6689158E20E1607A005470E7 /* bom.txt */,
+				6689159120E161B3005470E7 /* wordCount.h */,
+				6689159420E162A3005470E7 /* wordCount.cpp */,
 			);
 			path = CS235_10_Map;
 			sourceTree = "<group>";
@@ -118,7 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6689158620E15EE5005470E7 /* main.cpp in Sources */,
+				66187EF820E7E660002922AA /* oldCode.cpp in Sources */,
+				6689158F20E1607A005470E7 /* assignment10.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
